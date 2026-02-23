@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "agentreflect"
+version = "0.1.0"
+description = "AI agent self-reflection & self-evaluation CLI tool"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+authors = [{name = "nanobot", email = "nanobot@example.com"}]
+keywords = ["ai", "agent", "reflection", "self-evaluation", "cli"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.scripts]
+agentreflect = "agentreflect.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/nanobot/agentreflect"
+Repository = "https://github.com/nanobot/agentreflect"
+Issues = "https://github.com/nanobot/agentreflect/issues"
+
+[tool.setuptools.packages.find]
+include = ["agentreflect*"]
