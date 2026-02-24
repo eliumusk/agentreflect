@@ -28,9 +28,9 @@ classifiers = [
 agentreflect = "agentreflect.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/nanobot/agentreflect"
-Repository = "https://github.com/nanobot/agentreflect"
-Issues = "https://github.com/nanobot/agentreflect/issues"
+Homepage = "https://github.com/eliumusk/agentreflect"
+Repository = "https://github.com/eliumusk/agentreflect"
+Issues = "https://github.com/eliumusk/agentreflect/issues"
 
 [tool.setuptools.packages.find]
 include = ["agentreflect*"]
